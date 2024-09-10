@@ -1,9 +1,9 @@
 import css from './App.module.css';
-
+import NavBarForm from "./NavBarForm.js"
 function App() {
   return (
     <div className={css.App}>
-      {/* Add your components here */}
+      <NavBarForm />
     </div>
   );
 }
