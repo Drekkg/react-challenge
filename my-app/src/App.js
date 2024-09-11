@@ -1,9 +1,9 @@
 import css from './App.module.css';
-import NavBarForm from "./NavBarForm.js"
+import RenderingLists from "./components/RenderingLists.js"
 function App() {
   return (
     <div className={css.App}>
-      <NavBarForm />
+      <RenderingLists />
     </div>
   );
 }
