@@ -24,12 +24,12 @@ function RenderingLists() {
         <div>
             {
                 bookList.map(book => {
-                    return <h2>{book}</h2>
+                    return <h2 key={book}> {book}</h2>
                 })}
             <hr />
             {
                 books.map(book => {
-                    return < Books book={book} />
+                    return < Books key={book.title} book={book} />
                 })
 
 
